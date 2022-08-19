@@ -72,15 +72,24 @@
                         </div>
                     </div>
                     <div class="navigation-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio1" class="manual-btn" onclick="setcoutner(1)"></label>
+                        <label for="radio2" class="manual-btn"onclick="setcoutner(2)"></label>
+                        <label for="radio3" class="manual-btn" onclick="setcoutner(3)"></label>
+                        <label for="radio4" class="manual-btn" onclick="setcoutner(4)" ></label>
                     </div>
                 </div>
                 <script type ="text/javascript">
                 var counter =2; 
+                document.getElementById('radio1').checked = true;
+
+                function setcoutner(num) {
+                    counter = num 
+          
+                } 
+                
                 setInterval(function() {
+
+
                     document.getElementById('radio' + counter).checked = true;
                     counter++
                     if (counter >4) {
