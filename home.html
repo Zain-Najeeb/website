@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>
+                Home
+            </title>
+           
+            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet" href="css/home.css">
+            <script src="script.js"></script>
+
+
+        </head> 
+        <body style="overflow: hidden">
+
+            <div class="page-container">
+                <div class="content-wrap">
+                
+                    <div class="headings"> 
+                        <div class="marginleft">
+                            <h2>
+                                <strong>
+                                Zainnnartech
+                                </strong>
+                            </h2>
+                        </div>
+                        <div class="pages">  
+                            <h2>
+                                <li> <a style="color: white;" href="home.html">HOME</a></li>
+                                <div class="external">
+                                    <li> <a href="projects.html">PROJECTS</a></li>
+                                    <li> <a href="about.html">ABOUT</a></li>
+                                    <li> <a href="resume.html">RESUME</a></li>
+                                </div>    
+                            
+                            </h2>
+                        </div>
+                    </div>
+                <div class="middle">
+                    <div class="welcome">
+                        <strong>
+                        Welcome to Zainnartech
+                        </strong>
+                    </div>
+           
+                <div class="slider">
+                    <div class="slides">
+
+                        <input type="radio" name ="radio-btn" id="radio1">
+                        <input type="radio" name ="radio-btn" id="radio2">
+                        <input type="radio" name ="radio-btn" id="radio3">
+                        <input type="radio" name ="radio-btn" id="radio4">
+                        
+                        <div class="slide first">
+                            <img src="proj/OnlineChess.jpg" alt="chess">
+                        </div> 
+                        <div class="slide">
+                            <img src="proj/Maze.JPG" alt="Maze">
+                        </div>
+                        <div class="slide">
+                            <img src="proj/Tetris2.jpg" alt="Tetris">
+                        </div>
+                        <div class="slide">
+                            <img src="proj/FlappyBird.jpg" alt="FlappyBird">
+                        </div>
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+                <script type ="text/javascript">
+                var counter =2; 
+                setInterval(function() {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++
+                    if (counter >4) {
+                        counter = 1; 
+                    }
+                }, 5000);
+                </script>
+                </div>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/Zain-Najeeb">
+                        <img src="socials/github.jpg" alt="GithubLogo" >
+                    </a> <a href="https://www.youtube.com/channel/UC084yr1rsKrvb5ZXwtAztVg/featured">
+                        <img src="socials/youtube.png" alt="youtube" >
+                    </a>
+                </div>
+                <footer class="footer">
+                    <h3>
+                        <strong>
+                        Zain Najeeb
+                        </strong>
+                    </h3>
+                </footer>  
+                
+            </div>
+    
+        </body>
+        
+    
+</html>
