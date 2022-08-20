@@ -21,10 +21,7 @@ body {
     color: white;
 
 }
-.name {
-    display: flex;
-    color: white;
-}
+
 
 .headings {
     width: 100%;
@@ -34,7 +31,7 @@ body {
 
 .pages {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     right: 16px;
     
 }
