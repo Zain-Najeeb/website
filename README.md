@@ -1,3 +1,3 @@
 # website
-This is my webiste, where you'll be able to play a lot of my projects that I've made!
+This is my webiste, where I talk about my projects more in-depth, and post updates!
 https://zainnartech.com/
