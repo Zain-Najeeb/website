@@ -70,12 +70,16 @@ body {
 
 .middle {
     margin-top: 60px;
-    text-align: center;
     top: 15%;
     width: 99%;
     animation: slide-up 2s;
     
 }
+.middle .welcome {
+    text-align: center;
+}
+
+
 .middle .welcome {
     user-select: none; 
     padding-bottom: 24px;
